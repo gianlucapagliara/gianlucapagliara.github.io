@@ -8,6 +8,9 @@ url: "https://gianlucapagliara.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
 baseurl: ""
 
+repourl: "https://github.com/gianlucapagliara"
+resumeurl: "https://gianlucapagliara.github.io/bio/Resume.pdf"
+
 # OPTIONAL CHANGES
 # You might want to change the bio page label to something else, such as CV
 bio-page-label: Resume
