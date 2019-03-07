@@ -7,7 +7,7 @@
 
 // Customize the background color
 body {
-  background-color: #0064b7;
+  background-color: darken(#0064b7, 20%);
 }
 
 // Customize the menubar color
@@ -17,6 +17,6 @@ body {
 
 // Customize the home page icon colors
 .icon-color {
-  color: darken(#0064b7, 20%);
+  color: #0064b7;
 }
 
