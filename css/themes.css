@@ -1,0 +1,91 @@
+/* Theme styles - Company and category-specific styling */
+
+/* Banor Labs theme */
+.timeline-item.banor-labs .timeline-content {
+    border: 2px solid rgba(16, 185, 129, 0.4);
+    background: rgba(30, 38, 52, 0.95);
+}
+
+.timeline-item.banor-labs .timeline-content::before {
+    background: linear-gradient(45deg, rgba(16, 185, 129, 0.15), rgba(52, 211, 153, 0.15));
+}
+
+.timeline-item.banor-labs .timeline-marker {
+    background: linear-gradient(45deg, #10b981, #34d399);
+    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.2);
+}
+
+.timeline-item.banor-labs:hover .timeline-marker {
+    box-shadow: 0 0 0 8px rgba(16, 185, 129, 0.3);
+}
+
+.timeline-item.banor-labs .timeline-company {
+    color: #10b981;
+    font-weight: 700;
+}
+
+.timeline-item.banor-labs .company-badge {
+    background: rgba(16, 185, 129, 0.2);
+    color: #10b981;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+/* University theme */
+.timeline-item.university .timeline-content {
+    border: 2px solid rgba(168, 85, 247, 0.4);
+    background: rgba(30, 38, 52, 0.95);
+}
+
+.timeline-item.university .timeline-content::before {
+    background: linear-gradient(45deg, rgba(168, 85, 247, 0.15), rgba(196, 181, 253, 0.15));
+}
+
+.timeline-item.university .timeline-marker {
+    background: linear-gradient(45deg, #a855f7, #c4b5fd);
+    box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.2);
+}
+
+.timeline-item.university:hover .timeline-marker {
+    box-shadow: 0 0 0 8px rgba(168, 85, 247, 0.3);
+}
+
+.timeline-item.university .timeline-company {
+    color: #a855f7;
+    font-weight: 700;
+}
+
+.timeline-item.university .company-badge {
+    background: rgba(168, 85, 247, 0.2);
+    color: #a855f7;
+    border: 1px solid rgba(168, 85, 247, 0.3);
+}
+
+/* Education theme */
+.timeline-item.education .timeline-content {
+    border: 2px solid rgba(251, 146, 60, 0.4);
+    background: rgba(30, 38, 52, 0.95);
+}
+
+.timeline-item.education .timeline-content::before {
+    background: linear-gradient(45deg, rgba(251, 146, 60, 0.15), rgba(253, 186, 116, 0.15));
+}
+
+.timeline-item.education .timeline-marker {
+    background: linear-gradient(45deg, #fb923c, #fdba74);
+    box-shadow: 0 0 0 4px rgba(251, 146, 60, 0.2);
+}
+
+.timeline-item.education:hover .timeline-marker {
+    box-shadow: 0 0 0 8px rgba(251, 146, 60, 0.3);
+}
+
+.timeline-item.education .timeline-company {
+    color: #fb923c;
+    font-weight: 700;
+}
+
+.timeline-item.education .company-badge {
+    background: rgba(251, 146, 60, 0.2);
+    color: #fb923c;
+    border: 1px solid rgba(251, 146, 60, 0.3);
+}
